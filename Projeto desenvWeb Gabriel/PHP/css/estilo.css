@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16pt;
+    background-color: rgba(255,255,255, 0.1);
+    color: white;
+    border: 1px solid black;
+}
+
+input#login {
+    width: 440px;
+    background-color: rgb(238, 7, 61);
+}
+
+input#cadastrar {
+    width: 440px;
+    background-color: rgb(65, 123, 5);
+}
+
+
+div#form-login {
+    /*background-color: red;*/
+    width: 450px;
+    margin: 150px auto;
+}
+
+div#form-cad{
+    /*background-color: red;*/
+    width: 450px;
+    margin: 50px auto;
+}
+
+table{
+    /*background-color: red;*/
+    width: 450px;
+    margin: 50px auto;
+    border: 1px;
+}
+
+body {
+    background-image: url("../img/fundo1.jpg");
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50,205,50,0.3);
+    border: 1px solid rgb(34,139,34);
+}
+
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250,128,114,0.3);
+    border: 1px solid rgb(165,42,42);
+}
+
+.areaprivada{
+    margin-top: 250px;
+    line-height: 80px;
+}
